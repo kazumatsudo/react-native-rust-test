@@ -1,0 +1,6 @@
+[package]
+name = "react_native_rust_test"
+version = "0.1.0"
+authors = ["Kazuma Matsudo <matsudo.kazuma@unipro.co.jp>"]
+
+[dependencies]
