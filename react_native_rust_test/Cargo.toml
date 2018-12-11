@@ -3,4 +3,13 @@ name = "react_native_rust_test"
 version = "0.1.0"
 authors = ["Kazuma Matsudo <matsudo.kazuma@unipro.co.jp>"]
 
+[lib]
+name = "react_native_rust_test"
+crate-type = ["staticlib", "cdylib"]
+
 [dependencies]
+libc = "0.2"
+jni = { version = "0.5.1", optional = true, default-features = false }
+
+[features]
+default = ["jni"]
